@@ -53,4 +53,6 @@
 	
 		git push origin your_branch_name
 
-####
+#### To apply cherry-pick command, we have to make sure in which branch we will apply, then simply pick a hash
+	git checkout branch-name
+	git cherry-pick <commit-hash>
