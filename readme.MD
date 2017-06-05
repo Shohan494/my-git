@@ -99,5 +99,5 @@
 	git shortlog
 
 #### log history with or without merges
-git log --merges
-git log --no-merges
+	git log --merges
+	git log --no-merges
