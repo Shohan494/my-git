@@ -98,6 +98,6 @@
 #### To view commits based on authors
 	git shortlog
 
-#### log history with or without merges
+#### Log history with or without merges
 	git log --merges
 	git log --no-merges
