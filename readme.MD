@@ -1,7 +1,6 @@
 # Git Commands
 
 #### Basic
-
 	git init
 	git commit -m "first commit"
 	git remote add origin https://github.com/Shohan494/lstore.git
@@ -56,3 +55,26 @@
 #### To apply cherry-pick command, we have to make sure in which branch we will apply, then simply pick a hash
 	git checkout branch-name
 	git cherry-pick <commit-hash>
+
+## Git Stash
+
+#### For a temporary save we can use stash command. Like after some changes that we have made and we are not sure to make it permanent, then making a stash command and switching to other work
+	git stash
+#### To provide some more info and then save the stash
+	git stash save "message"
+
+#### To re-apply and drop the stash, this command will remove the latest one
+	git stash pop
+#### To remove a specific stash
+    git stash pop stash@{2}
+#### To apply and keep them on stash
+	git stash apply
+
+#### We can stash multiple times. So to have a list of stashes
+	git stash list
+
+#### To stash ignored files also
+	git stash -u
+
+#### We can view the stash diffs
+	git stash show
