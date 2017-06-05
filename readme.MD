@@ -37,4 +37,11 @@
 #### To clone a repo from a remote location and to give it a new name
 	git clone remote_location clone_name
 
-#### 
+#### To list the remotes
+	git remote -v
+
+#### To fetch any new changes that may have made to the remote
+	git fetch
+
+#### To merge with the local repo to remote repo
+	git merge origin/master
