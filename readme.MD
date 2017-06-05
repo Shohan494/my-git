@@ -21,13 +21,13 @@
 	git reset #some#log#code
 
 #### create new branch
-- git branch banch-name
+	git branch banch-name
 
 #### switching to a new branch
-- git checkout branch-name
+	git checkout branch-name
 
 #### to include the created branch's changes into the other(master) branch
-- git checkout master
-- git merge branch-name
+	git checkout master
+	git merge branch-name
 
 ####  
