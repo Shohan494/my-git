@@ -36,3 +36,7 @@
 #### while merging we will see some issues on the file that creates the conflicts between two branches
 #### we can simply get rid of them and after making sure which version we want to keep, then we can add the file and commit
 
+#### after creating a branch, if the branch reaches its target, we can delete the branch if we want
+	git branch -d branch_name
+
+####
