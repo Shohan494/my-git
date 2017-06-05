@@ -50,6 +50,7 @@
 - Creating a new branch
 - Then working on the project, adding files, commiting etc
 - Then we can push the branch to origin/master via:
+	
 	git push origin your_branch_name
 
 ####
