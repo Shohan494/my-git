@@ -78,3 +78,12 @@
 
 #### We can view the stash diffs
 	git stash show
+
+#### Partial stashing(individual or all files)
+	git stash -p
+
+#### Drop a particular stash
+	git stash drop stash@{1}
+
+#### Clear all stash
+	git stash clear
