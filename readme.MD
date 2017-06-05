@@ -31,7 +31,10 @@
 
 #### To get rid of conflict in the same file in different branches, merge conflict appears. To solve this issue, this is called conflict resolve in git. While merging we will see some issues on the file that creates the conflicts between two branches. We can simply get rid of them and after making sure which version we want to keep, then we can add the file and commit
 
-#### after creating a branch, if the branch reaches its target, we can delete the branch if we want
+#### After creating a branch, if the branch reaches its target, we can delete the branch if we want
 	git branch -d branch_name
+
+#### To clone a repo from a remote location and to give it a new name
+	git clone remote_location clone_name
 
 #### 
