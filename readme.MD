@@ -43,5 +43,13 @@
 #### To fetch any new changes that may have made to the remote
 	git fetch
 
-#### To merge with the local repo to remote repo
+#### If some changes are made in the origin/master, we can merge with the local/master repo to remote(origin/master) repo
 	git merge origin/master
+
+#### After merging with the origin/master repo, if we create a new branch for our own project, we can create, work on it, then we can push the branch to the origin/master repo. So the steps will be basically:
+- Creating a new branch
+- Then working on the project, adding files, commiting etc
+- Then we can push the branch to origin/master via:
+	git push origin your_branch_name
+
+####
