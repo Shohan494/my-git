@@ -87,3 +87,17 @@
 
 #### Clear all stash
 	git stash clear
+
+#### To view our each commit(basically git log) to a single line, we can use
+	git log --oneline
+
+#### To view added or removed lines(basically diffs) we can use
+	git log --stat
+	git log -p
+
+#### To view commits based on authors
+	git shortlog
+
+#### log history with or without merges
+git log --merges
+git log --no-merges
