@@ -101,3 +101,6 @@
 #### Log history with or without merges
 	git log --merges
 	git log --no-merges
+
+#### If a commit is done wrong, we can ammend:
+	git commit --amend
